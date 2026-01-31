@@ -8,8 +8,51 @@ use_directory_urls: true
 
 theme:
   name: material
+  features:
+    - navigation.instant
+    - navigation.tracking
+    - navigation.sections
+    - navigation.top
+    - content.action.edit
+    - content.code.copy
+    - toc.follow
+
+markdown_extensions:
+  - admonition
+  - toc:
+      permalink: true
+  - pymdownx.superfences
+  - pymdownx.details
+  - pymdownx.inlinehilite
+  - pymdownx.highlight
 
 nav:
   - Home: index.md
+  - Getting started:
+      - Overview: getting-started/overview.md
+      - Local dev: getting-started/local-dev.md
+      - Release & deploy: getting-started/release-and-deploy.md
   - Runbooks:
-      - SSH Access: runbooks/ssh-access.md  
+      - Overview: runbooks/_index.md
+      - SSH access: runbooks/ssh-access.md
+      - Service restart: runbooks/service-restart.md
+      - Incident triage: runbooks/incident-triage.md
+      - Backup & restore: runbooks/backup-restore.md
+  - HowTos:
+      - Overview: howtos/_index.md
+      - Log searching: howtos/log-searching.md
+      - Cert renewal: howtos/cert-renewal.md
+      - Linux troubleshooting: howtos/linux-troubleshooting.md
+  - Standards:
+      - Overview: standards/_index.md
+      - Naming: standards/naming.md
+      - Branching: standards/branching.md
+      - Security baseline: standards/security-baseline.md
+  - Reference:
+      - Overview: reference/_index.md
+      - Linux commands: reference/linux-commands.md
+      - Ports & endpoints: reference/ports-and-endpoints.md
+      - Glossary: reference/glossary.md
+  - Diagrams:
+      - Architecture: diagrams/architecture.md
+      
