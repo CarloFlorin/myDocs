@@ -1,2 +1,6 @@
 site_name: My Docs
 site_url: hhttps://github.com/CarloFlorin.github.io/myDocs/
+
+theme:
+  name: material
+
