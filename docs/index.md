@@ -1,17 +1,23 @@
-# Welcome to MkDocs
+# myDocs
+Kurz, operativ, versioniert: Runbooks, HowTos, Standards und Reference – gedacht für wiederholbare Betriebsaufgaben und Troubleshooting.
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+## Einstieg
+- **Runbooks** (Incident / Betrieb): [[runbooks/_index.md]]
+- **HowTos** (Anleitungen): [[howtos/_index.md]]
+- **Standards** (Konventionen): [[standards/_index.md]]
+- **Reference** (Nachschlagewerk): [[reference/_index.md]]
 
-## Commands
+## Quick Links
+- SSH Zugriff prüfen: [[runbooks/ssh-access.md]]
+- Service Restart: [[runbooks/service-restart.md]]
+- Incident Triage (First 15 minutes): [[runbooks/incident-triage.md]]
+- Logs durchsuchen: [[howtos/log-searching.md]]
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
+## Git / Workflow
+- Branch → PR → Merge: [[standards/branching.md]]
 
-## Project layout
+## Externe Links
+- MkDocs: https://www.mkdocs.org/
+- Material for MkDocs: https://squidfunk.github.io/mkdocs-material/
+- GitHub Pages: https://docs.github.com/pages
 
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
