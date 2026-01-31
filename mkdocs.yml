@@ -1,6 +1,15 @@
-site_name: My Docs
-site_url: hhttps://github.com/CarloFlorin.github.io/myDocs/
+site_name: myDocs
+site_url: https://carloflorin.github.io/myDocs/
+repo_url: https://github.com/CarloFlorin/myDocs
+repo_name: CarloFlorin/myDocs
+edit_uri: edit/main/docs/
+
+use_directory_urls: true
 
 theme:
   name: material
 
+nav:
+  - Home: index.md
+  - Runbooks:
+      - SSH Access: runbooks/ssh-access.md  
